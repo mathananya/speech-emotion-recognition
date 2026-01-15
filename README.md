@@ -100,7 +100,7 @@ Applies random pitch shifts to simulate variations in speaker pitch.
 
 ## Data Sources
 
-The pipeline uses two publicly available datasets:
+Two publicly available datasets have been used for this project:
 
 ### 1. RAVDESS Dataset
 - **Source:** [RAVDESS Emotional Speech Audio](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)
@@ -116,8 +116,6 @@ The pipeline uses two publicly available datasets:
 
 ## Pipeline Output
 
-The pipeline generates the following outputs:
-
 1. **labels.csv** - CSV file containing:
    - `filepath` - Path to audio file
    - `label` - Combined gender-emotion label (e.g., "male-happy", "female-sad")
@@ -125,12 +123,13 @@ The pipeline generates the following outputs:
    - `chroma` - Extracted chroma features
    - `mel` - Extracted mel spectrogram features
 
-2. **labels.npy** - NumPy array version of the dataframe for efficient loading in models
+2. **labels.npy** - NumPy array version of the dataframe for efficient loading in models (available in [Kaggle notebook](https://www.kaggle.com/code/ananyamkhrj/ser-project-feature-extraction-data-augmentation))
 
 
 ## Label Format
 
 Labels combine gender and emotion information:
 - Format: `{gender}-{emotion}`
+
 
 
