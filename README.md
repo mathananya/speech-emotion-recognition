@@ -3,6 +3,9 @@
 ## Project Status
 In progress (Feature pipeline complete)
 
+## Link to Kaggle
+https://www.kaggle.com/code/ananyamkhrj/ser-project-feature-extraction-data-augmentation
+
 ## Overview
 
 The feature pipeline performs two main tasks:
